@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #800000;
+    --color-secondary: #982b1c;
+    --color-tertiary: #dad4b5;
+    --color-footer: #F2e8c6;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--color-tertiary);
+}
+.container{
+    margin: 10rem 30rem;
+    padding: 1.5rem;
+   /* border: 2px solid var(--color-primary);*/
+    /*text-align: center;*/
+    justify-content: center;
+    box-shadow: 0 15px 25px rgba(152,43, 28, 1);
+    border-radius: 1rem;
+    
+}
+.container-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.list-form-input{
+    display: flex;
+}
+.list-form input{
+    padding: 0.8rem;
+    border: 1px solid var(--color-footer);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.button{
+    background-color: var(--color-footer);
+    margin-left: 3rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    border: none;
+    font-size: 1rem;
+}
+.task-list{
+    margin-top: 3rem;
+}
+ul li{
+list-style: none;
+font-size: 17px;
+padding: 10px 8px 12px 50px;
+user-select: none;
+cursor: pointer;
+}
